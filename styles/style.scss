@@ -120,29 +120,8 @@ img {
 
 @media (max-width: 768px) {
   .card-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
-  }
-  
-  .card {
-    grid-column: 1;
-  }
-
-  .supervisor-card {
-    grid-row: 1;
-  }
-  
-  .teambuilder-card {
-    grid-row: 2;
-  }
-  
-  .karma-card {
-    grid-row: 3;
-  }
-  
-  .calculator-card {
-    grid-row: 4;
   }
 }
