@@ -18,6 +18,24 @@ main {
   gap: 3rem;
 }
 
+.text {
+  text-align: center;
+  max-width: 40rem;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.headers {
+  font-size: 1.3em;
+}
+
+.headers > p {
+  font-size: 2em;
+  font-weight: 200;
+}
+
 h1,
 .card-title,
 .card-desc {
@@ -27,16 +45,6 @@ h1,
 .headers,
 .card-title {
   color: hsl(234, 12%, 34%);
-}
-
-.text {
-  max-width: 30rem;
-  text-align: center;
-}
-
-.headers > p {
-  font-size: 2em;
-  font-weight: 200;
 }
 
 h2,
